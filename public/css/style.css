@@ -1,0 +1,42 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.navbar navbar-expand-lg{
+	background-color:red!;
+}
+
+html{
+	font-size:60%;
+}
+body{
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	background-color:#2B2B2B;
+}
+.row{
+	margin:0px;
+}
+.main_menu{
+	background-color: var(--main-bg);
+}
+.navbar{
+	color:white;
+	background-color: var(--main-bg);
+}
+.navbar a{
+	color:white;
+	font-size:18px;
+}
+.navbar a:hover{
+	cursor:pointer;
+}
+.navbar li{
+	margin-left:20px;
+}
+footer{
+	background-color:black;
+	color:white;
+}

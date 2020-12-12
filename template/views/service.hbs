@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>untitled</title>
+<meta name="generator" content="Geany 1.32" />
+<link rel="stylesheet" href="../css/bootstrap.min.css" >
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+footer{
+	margin-left:10%;
+	width:80%;
+	background-color:#3F3F3F;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	}
+footer p{
+	margin:0px;
+	text-align: center;
+	color:white;
+	line-height:2rem;
+	font-size:1rem;	
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!--navbar-->
+{{>navbar}}
+<!--navbar-end-->
+
+<div class="container-fluid mt-5">
+	<div class="row">
+		<div class="col-md-10 col-12 mx-auto">
+			<h1>our services</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="column">
+					<div class="card">
+					  <img src="" alt="img1" style="width:100%">
+					  <div class="container">
+						<h2>mno</h2>
+						<p class="title">job title</p>
+						<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+						<p>mno@example.com</p>
+						<p><button class="button">Contact</button></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="column">
+					<div class="card">
+					  <img src="" alt="img1" style="width:100%">
+					  <div class="container">
+						<h2>mno</h2>
+						<p class="title">job title</p>
+						<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+						<p>mno@example.com</p>
+						<p><button class="button">Contact</button></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="column">
+					<div class="card">
+					  <img src="" alt="img1" style="width:100%">
+					  <div class="container">
+						<h2>mno</h2>
+						<p class="title">job title</p>
+						<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+						<p>mno@example.com</p>
+						<p><button class="button">Contact</button></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer-->
+{{>footer}}
+<!--footer-end-->
+<script src="../jq/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>
